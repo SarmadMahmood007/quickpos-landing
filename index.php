@@ -82,6 +82,62 @@
     </div>
 </section>
 
+<!-- Pricing -->
+<section id="pricing" class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="display-5 fw-bold">Simple, Transparent Pricing</h2>
+                <p class="lead text-muted">Choose the plan that fits your business</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            <!-- Basic -->
+            <div class="col-lg-4">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body text-center p-5">
+                        <h5 class="text-muted">Basic</h5>
+                        <h2 class="my-3">$29<span class="text-muted fs-5">/month</span></h2>
+                        <ul class="list-unstyled my-4">
+                            <li class="py-2">✓ 1 Store</li>
+                            <li class="py-2">✓ Basic Analytics</li>
+                            <li class="py-2 text-muted">✗ Multi-location</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-primary w-100">Choose Basic</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pro -->
+            <div class="col-lg-4">
+                <div class="card h-100 shadow border-0 border-primary border-3 position-relative">
+                    <div class="badge bg-primary text-white position-absolute top-0 start-50 translate-middle-x">Most Popular</div>
+                    <div class="card-body text-center p-5">
+                        <h5 class="text-muted">Pro</h5>
+                        <h2 class="my-3">$79<span class="text-muted fs-5">/month</span></h2>
+                        <ul class="list-unstyled my-4">
+                            <li class="py-2">✓ Unlimited Stores</li>
+                            <li class="py-2">✓ Advanced Analytics</li>
+                            <li class="py-2">✓ Priority Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary w-100">Choose Pro</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Enterprise -->
+            <div class="col-lg-4">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body text-center p-5">
+                        <h5 class="text-muted">Enterprise</h5>
+                        <h2 class="my-3">Custom</h2>
+                        <p class="text-muted">Dedicated support & infrastructure</p>
+                        <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

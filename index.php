@@ -47,6 +47,42 @@
     </div>
 </section>
 
+<!-- Features -->
+<section id="features" class="py-5">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="display-5 fw-bold">Powerful Features</h2>
+                <p class="lead text-muted">Everything you need to run your business smoothly</p>
+            </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-warehouse fa-3x text-primary mb-3"></i>
+                    <h4>Inventory Management</h4>
+                    <p class="text-muted">Track stock levels in real-time across all locations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                    <h4>Sales Analytics</h4>
+                    <p class="text-muted">Beautiful dashboards and reports to make better decisions.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-plug fa-3x text-primary mb-3"></i>
+                    <h4>Easy Integration</h4>
+                    <p class="text-muted">Connect with your favorite payment gateways and tools.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

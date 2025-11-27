@@ -31,7 +31,21 @@
     </div>
 </nav>
 
-
+<!-- Hero Section -->
+<section class="hero text-center text-white">
+    <div class="container pt-5">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-bold">The Last POS System<br>You'll Ever Need</h1>
+                <p class="lead my-4">Modern, fast, and built for businesses that want to grow without limits.</p>
+                <a href="#contact" class="btn btn-lg btn-light px-5 py-3 shadow">Get Started for Free</a>
+            </div>
+            <div class="col-lg-6 text-lg-end mt-5 mt-lg-0">
+                <img src="assets/img/hero-mockup.png" alt="QuickPOS Dashboard" class="img-fluid rounded shadow-lg"/>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

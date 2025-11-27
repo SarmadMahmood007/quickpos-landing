@@ -35,13 +35,10 @@
 <section class="hero text-center text-white">
     <div class="container pt-5">
         <div class="row align-items-center min-vh-100">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <h1 class="display-3 fw-bold">The Last POS System<br>You'll Ever Need</h1>
                 <p class="lead my-4">Modern, fast, and built for businesses that want to grow without limits.</p>
                 <a href="#contact" class="btn btn-lg btn-light px-5 py-3 shadow">Get Started for Free</a>
-            </div>
-            <div class="col-lg-6 text-lg-end mt-5 mt-lg-0">
-                <img src="assets/img/hero-mockup.png" alt="QuickPOS Dashboard" class="img-fluid rounded shadow-lg"/>
             </div>
         </div>
     </div>
@@ -52,30 +49,30 @@
     <div class="container">
         <div class="row text-center mb-5">
             <div class="col">
-                <h2 class="display-5 fw-bold">Powerful Features</h2>
-                <p class="lead text-muted">Everything you need to run your business smoothly</p>
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to run your business smoothly</p>
             </div>
         </div>
-        <div class="row g-5">
-            <div class="col-md-4">
-                <div class="text-center">
-                    <i class="fas fa-warehouse fa-3x text-primary mb-3"></i>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <i class="fas fa-warehouse"></i>
                     <h4>Inventory Management</h4>
-                    <p class="text-muted">Track stock levels in real-time across all locations.</p>
+                    <p>Track stock levels in real-time across all locations.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="text-center">
-                    <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+            <div class="col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
                     <h4>Sales Analytics</h4>
-                    <p class="text-muted">Beautiful dashboards and reports to make better decisions.</p>
+                    <p>Beautiful dashboards and reports to make better decisions.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="text-center">
-                    <i class="fas fa-plug fa-3x text-primary mb-3"></i>
+            <div class="col-md-6 col-lg-4">
+                <div class="feature-card">
+                    <i class="fas fa-plug"></i>
                     <h4>Easy Integration</h4>
-                    <p class="text-muted">Connect with your favorite payment gateways and tools.</p>
+                    <p>Connect with your favorite payment gateways and tools.</p>
                 </div>
             </div>
         </div>
@@ -83,52 +80,52 @@
 </section>
 
 <!-- Pricing -->
-<section id="pricing" class="py-5 bg-light">
+<section id="pricing" class="py-5">
     <div class="container">
         <div class="row text-center mb-5">
             <div class="col">
-                <h2 class="display-5 fw-bold">Simple, Transparent Pricing</h2>
-                <p class="lead text-muted">Choose the plan that fits your business</p>
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your business</p>
             </div>
         </div>
         <div class="row g-4">
             <!-- Basic -->
-            <div class="col-lg-4">
-                <div class="card h-100 shadow border-0">
-                    <div class="card-body text-center p-5">
-                        <h5 class="text-muted">Basic</h5>
-                        <h2 class="my-3">$29<span class="text-muted fs-5">/month</span></h2>
-                        <ul class="list-unstyled my-4">
-                            <li class="py-2">✓ 1 Store</li>
-                            <li class="py-2">✓ Basic Analytics</li>
-                            <li class="py-2 text-muted">✗ Multi-location</li>
+            <div class="col-md-6 col-lg-4">
+                <div class="card pricing-card h-100 shadow border-0">
+                    <div class="card-body text-center">
+                        <h5>Basic</h5>
+                        <h2>$29<span class="text-muted fs-5">/month</span></h2>
+                        <ul>
+                            <li>✓ 1 Store</li>
+                            <li>✓ Basic Analytics</li>
+                            <li class="text-muted">✗ Multi-location</li>
                         </ul>
                         <a href="#" class="btn btn-outline-primary w-100">Choose Basic</a>
                     </div>
                 </div>
             </div>
             <!-- Pro -->
-            <div class="col-lg-4">
-                <div class="card h-100 shadow border-0 border-primary border-3 position-relative">
+            <div class="col-md-6 col-lg-4">
+                <div class="card pricing-card popular h-100 shadow border-0 position-relative">
                     <div class="badge bg-primary text-white position-absolute top-0 start-50 translate-middle-x">Most Popular</div>
-                    <div class="card-body text-center p-5">
-                        <h5 class="text-muted">Pro</h5>
-                        <h2 class="my-3">$79<span class="text-muted fs-5">/month</span></h2>
-                        <ul class="list-unstyled my-4">
-                            <li class="py-2">✓ Unlimited Stores</li>
-                            <li class="py-2">✓ Advanced Analytics</li>
-                            <li class="py-2">✓ Priority Support</li>
+                    <div class="card-body text-center">
+                        <h5>Pro</h5>
+                        <h2>$79<span class="text-muted fs-5">/month</span></h2>
+                        <ul>
+                            <li>✓ Unlimited Stores</li>
+                            <li>✓ Advanced Analytics</li>
+                            <li>✓ Priority Support</li>
                         </ul>
                         <a href="#" class="btn btn-primary w-100">Choose Pro</a>
                     </div>
                 </div>
             </div>
             <!-- Enterprise -->
-            <div class="col-lg-4">
-                <div class="card h-100 shadow border-0">
-                    <div class="card-body text-center p-5">
-                        <h5 class="text-muted">Enterprise</h5>
-                        <h2 class="my-3">Custom</h2>
+            <div class="col-md-6 col-lg-4">
+                <div class="card pricing-card h-100 shadow border-0">
+                    <div class="card-body text-center">
+                        <h5>Enterprise</h5>
+                        <h2>Custom</h2>
                         <p class="text-muted">Dedicated support & infrastructure</p>
                         <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
                     </div>
@@ -143,7 +140,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h2 class="text-center mb-5 fw-bold">Get In Touch</h2>
-                <form action="contact.php" method="POST" class="shadow p-5 rounded bg-white">
+                <form action="contact.php" method="POST" class="contact-form">
                     <div class="mb-3">
                         <label class="form-label">Name</label>
                         <input type="text" name="name" class="form-control" required/>
